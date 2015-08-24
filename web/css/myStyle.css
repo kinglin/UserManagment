@@ -1,0 +1,71 @@
+body{
+    background-color: ghostwhite;
+    font-family: 'Ubuntu', Tahoma, sans-serif;
+    }
+h1{
+    font-size: 2em;
+    text-transform: capitalize;
+}
+ul{
+    list-style-type: none;
+    font-size: 1em;
+    padding: 10px;
+}
+a.cancel:link,a.cancel:visited{
+    font-weight: bold;
+    color: white;
+    background-color: gainsboro;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+a.cancel:hover,a.cancel:active{
+    background-color: darkgray;
+}
+a.ok:link,a.ok:visited{
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+a.ok:hover,a.ok:active{
+    background-color: red;
+}
+.center{
+    margin: 180px auto;
+    width: 1000px;
+    text-align: center;
+}
+.inputText{
+    margin: 5px;
+    border: 2px dotted black;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+}
+#round{
+    border: 5px solid dimgray;
+    border-radius: 20px;
+    padding: 30px 30px;
+    width: 330px;
+}
+input.ok{
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+
+
+    border:0;
+    margin:4px 0 0 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
